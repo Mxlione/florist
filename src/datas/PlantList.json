@@ -1,0 +1,184 @@
+[
+    {
+        "name": "rose",
+        "category": "classique",
+        "id": "1ed",
+        "isBestSale": true,
+        "light": 2,
+        "water": 3,
+        "prix": 120,
+        "cover": "../assets/rose.jpeg"
+    },
+    {
+        "name": "tulipe",
+        "category": "classique",
+        "id": "2ab",
+        "light": 3,
+        "water": 2,
+        "prix": 80,
+        "cover": "../assets/tulipe.jpeg"
+    },
+    {
+        "name": "orchidée",
+        "category": "exotique",
+        "id": "3sd",
+        "light": 2,
+        "water": 3,
+        "prix": 150,
+        "cover": "../assets/orchidee.jpeg"
+    },
+    {
+        "name": "lys",
+        "category": "classique",
+        "id": "4kk",
+        "light": 3,
+        "water": 2,
+        "prix": 110,
+        "cover": "../assets/lys.jpeg"
+    },
+    {
+        "name": "marguerite",
+        "category": "classique",
+        "id": "5pl",
+        "light": 1,
+        "water": 2,
+        "prix": 60,
+        "cover": "../assets/marguerite.jpeg"
+    },
+    {
+        "name": "pivoine",
+        "category": "classique",
+        "id": "6uo",
+        "light": 2,
+        "water": 3,
+        "prix": 200,
+        "cover": "../assets/pivoine.jpeg"
+    },
+    {
+        "name": "lavande",
+        "category": "aromatique",
+        "id": "7ie",
+        "isBestSale": true,
+        "light": 3,
+        "water": 1,
+        "prix": 50,
+        "cover": "../assets/lavande.jpeg"
+    },
+    {
+        "name": "tournesol",
+        "category": "extérieur",
+        "id": "8fp",
+        "light": 3,
+        "water": 2,
+        "prix": 70,
+        "cover": "../assets/tournesol.jpeg"
+    },
+    {
+        "name": "dahlia",
+        "category": "extérieur",
+        "id": "9vn",
+        "light": 2,
+        "water": 2,
+        "prix": 90,
+        "cover": "../assets/dahlia.jpeg"
+    },
+    {
+        "name": "camélia",
+        "category": "classique",
+        "id": "10kr",
+        "light": 2,
+        "water": 3,
+        "prix": 130,
+        "cover": "../assets/camelia.jpeg"
+    },
+    {
+        "name": "violette",
+        "category": "aromatique",
+        "id": "11bc",
+        "light": 1,
+        "water": 2,
+        "prix": 40,
+        "cover": "../assets/violette.jpeg"
+    },
+    {
+        "name": "narcisse",
+        "category": "classique",
+        "id": "12mn",
+        "light": 2,
+        "water": 2,
+        "prix": 75,
+        "cover": "../assets/narcisse.jpeg"
+    },
+    {
+        "name": "jasmin",
+        "category": "aromatique",
+        "id": "13pq",
+        "light": 3,
+        "water": 2,
+        "prix": 95,
+        "cover": "../assets/jasmin.jpeg"
+    },
+    {
+        "name": "chrysanthème",
+        "category": "extérieur",
+        "id": "14yt",
+        "light": 3,
+        "water": 2,
+        "prix": 85,
+        "cover": "../assets/chrysantheme.jpeg"
+    },
+    {
+        "name": "géranium",
+        "category": "extérieur",
+        "id": "15zx",
+        "light": 2,
+        "water": 2,
+        "prix": 65,
+        "cover": "../assets/geranium.jpeg"
+    },
+    {
+        "name": "hibiscus",
+        "category": "exotique",
+        "id": "16hj",
+        "light": 3,
+        "water": 2,
+        "prix": 140,
+        "cover": "../assets/hibiscus.jpeg"
+    },
+    {
+        "name": "amaryllis",
+        "category": "intérieur",
+        "id": "17am",
+        "light": 2,
+        "water": 3,
+        "prix": 110,
+        "cover": "../assets/amaryllis.jpeg"
+    },
+    {
+        "name": "azalée",
+        "category": "intérieur",
+        "id": "18az",
+        "light": 2,
+        "water": 3,
+        "prix": 130,
+        "cover": "../assets/azalee.jpeg"
+    },
+    {
+        "name": "bleuet",
+        "category": "extérieur",
+        "id": "19bl",
+        "light": 1,
+        "water": 2,
+        "prix": 50,
+        "cover": "../assets/bleuet.jpeg"
+    },
+    {
+        "name": "fuchsia",
+        "category": "extérieur",
+        "id": "20fu",
+        "light": 2,
+        "water": 2,
+        "prix": 90,
+        "cover": "../assets/fuchsia.jpeg"
+    }
+]

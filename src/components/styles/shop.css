@@ -1,0 +1,41 @@
+.shoplist{
+    padding: 50px;
+
+}
+
+.lmj-plant-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permet de passer à la ligne si nécessaire */
+    list-style-type: none;
+    /* Supprime les puces */
+    padding: 0;
+    /* Retire le padding par défaut */
+    margin: 0;
+    /* Retire le margin par défaut */
+}
+
+button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.add{
+    border-radius: 5px;
+    color: #fff;
+    background-color: #31b572;
+    cursor: pointer;
+    padding: 5px;
+    height: 30px;
+}
+
+.cat{
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #04AA6D;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    height: 50px;
+}
