@@ -1,5 +1,6 @@
 import '../components/styles/Cart.css'
 import { useState, useEffect } from 'react'
+import { FaShoppingCart } from 'react-icons/fa';
 function Cart({ cart, updateCart }) {
     let price = 0
     const [isOpen, setIsOpen] = useState(false)
@@ -20,15 +21,27 @@ function Cart({ cart, updateCart }) {
             <div className="btn">
                 <button className='close' onClick={() => setIsOpen(false)}>Close cart</button>
                 {cart.length > 0 && (
-                    <button className='close' onClick={() => vider()}>
-                        Empty the cart
-                    </button>
+                    <>
+                        <button className='close' onClick={() => vider()}>
+                             Empty the cart
+                        </button><button className=' payer'>
+                            Coming Soon
+                        </button>
+                    </>
+
                 )}
             </div>
             <div>
                 {
                     cart.map((item) => (
-                        <h3 key={item.id}> {item.name} : {item.prix} € x { item.amount}</h3>
+                        <div className='flex'>
+                            <div>
+                                <img className='img' src={item.cover} alt={`${item.name} cover`} />
+                            </div>
+                            <div className='name'>
+                                {item.name} : {item.prix} € x {item.amount}
+                            </div>
+                        </div>
                     ))
                 }
 
@@ -37,7 +50,7 @@ function Cart({ cart, updateCart }) {
             <h3>Total : {price} €</h3>
         </div>
     ) : (
-            <button className='open' onClick={() => setIsOpen(true)}> Open the cart</button>
+            <button className='open' onClick={() => setIsOpen(true)}> <FaShoppingCart />  {cart.length > 0 ? cart.length : ''}</button>
     )
 }
 

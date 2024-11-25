@@ -6,6 +6,7 @@ import '../components/styles/App.css'
 import { useState } from 'react'
 
 function App() {
+  document.title = "Forist";
   const [cart, updateCart] = useState([])
     return (
       <div>

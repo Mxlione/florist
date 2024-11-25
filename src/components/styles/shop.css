@@ -39,3 +39,25 @@ button{
     padding: 10px;
     height: 50px;
 }
+
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity {
+    margin: 0 10px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 10px;
+    bottom: 8px;
+}
+
+
+
+button:disabled {
+    cursor: not-allowed;
+    background-color: #ddd;
+}
