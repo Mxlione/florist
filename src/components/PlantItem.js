@@ -14,6 +14,7 @@ function PlantItem({ id, cover, name, water, light, prix = 0 }) {
             
             <div className='section-name'>
                 {name}
+                <div className='price'>{prix} €</div>
                 <CareScale careType='water' scaleValue={water} />
                 <CareScale careType='light' scaleValue={light} />
             </div>
