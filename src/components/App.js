@@ -1,23 +1,22 @@
-import Banner from './Banner'
-import Footer from './Footer'
-import Cart from './Cart'
-import ShoppingList from './ShoppingList'
-import '../components/styles/App.css'
-import { useState } from 'react'
+import '../components/styles/App.css';
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Utiliser Routes au lieu de Switch
+import HomePage from './HomePage';
+import MainPage from './MainPage';
 
 function App() {
-  document.title = "Forist";
-  const [cart, updateCart] = useState([])
-    return (
-      <div>
-        <Banner />
-        <div className='content'>
-          <Cart cart={cart} updateCart={updateCart} />
-          <ShoppingList cart={cart} updateCart={updateCart} />
-        </div>
-        <Footer />
-      </div>
-    )
-  }
+  document.title = "Florist"; // Correction du nom de la page
 
-export default App
+
+  return (
+    <Router>
+      <Routes> {/* Remplacer Switch par Routes */}
+        {/* Définir les routes avec l'attribut element */}
+        <Route path="/" element={<HomePage />} />
+        <Route path="/main" element={<MainPage />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;

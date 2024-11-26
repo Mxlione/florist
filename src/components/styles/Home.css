@@ -1,0 +1,46 @@
+
+.home-page {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image:url('../../assets/bac1.jpg');
+    /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-page div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.home-page h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.home-page p {
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.home-page button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+}
+
+.home-page button:hover {
+    background-color: #ddd;
+}
